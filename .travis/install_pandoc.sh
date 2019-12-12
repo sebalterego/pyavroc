@@ -49,4 +49,5 @@ do
     sleep 60
 done
 
-exit 1
+# Don't let failed download break the build.
+exit 0
